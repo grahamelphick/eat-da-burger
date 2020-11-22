@@ -18,6 +18,7 @@ $(function() {
     });
   
     $(".create-form").on("submit", function(event) {
+      console.log("add burger clicked");
       event.preventDefault();
   
       let newBurger = {
