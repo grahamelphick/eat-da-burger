@@ -1,19 +1,34 @@
 <h1>Burgers!</h1>
 
+
+<ul>
+  {{#each burgers}}
+   {{#unless devoured}}
+  <li>
+    <p>{{this.id}}. {{this.burger_name}}</p>
+
+    <button class="make-devoured" data-id="{{id}}">
+      DEVOUR!!
+    </button>
+
+  </li>
+      {{/unless}}
+  {{/each}}
+</ul>
+
+
 <h2>Burgers eaten</h2>
 
 
 <ul>
   {{#each burgers}}
+      {{#if devoured}}
   <li>
     <p>{{this.id}}. {{this.burger_name}}</p>
-    <button class="change-sleep">
-      DEVOUR!!
-    </button>
   </li>
+      {{/if}}
   {{/each}}
 </ul>
-
 
 
 <h2>Add a burger</h2>
