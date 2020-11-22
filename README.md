@@ -12,7 +12,7 @@ This application allows the user to enter custom burgers to a list entitled "Bur
 
 ## Screenshots
 
-<img src="./screenshots.new-burger.png" alt="screenshot of the working application"></img>
+<img src="/Users/graelphick/Google Drive/CODING BOOTCAMP/Homework/eat-da-burger/screenshots/new-burger.png" alt="screenshot of the working application">
 
 ## Installation
 npm install
