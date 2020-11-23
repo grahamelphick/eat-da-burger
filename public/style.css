@@ -19,3 +19,7 @@ h2 {
     border: none;
     margin: 15px;
 }
+
+ul {
+    list-style-type: none;
+}
