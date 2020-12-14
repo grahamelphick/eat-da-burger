@@ -20,7 +20,7 @@ This application allows the user to enter custom burgers to a list entitled "Bur
 npm install
 
 ## Deployed App
- https://damp-hollows-25067.herokuapp.com/
+https://damp-hollows-25067.herokuapp.com/
 
 ## GitHub
 My GitHub: https://github.com/grahamelphick
